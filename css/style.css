@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Tommy Soft";
+    src: url(../fonts/tommy_soft-regular.otf);
+}
+@font-face {
+    font-family: "Tommy Soft Bold";
+    src: url(../fonts/tommy_soft-bold.otf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Tommy Soft";
+    background: #E3CDB2;
+}
+
+section {
+    min-height: 100vh;
+}
+
+p {
+    color: #022449;
+}
+
+.title {
+    font-family: "Tommy Soft Bold";
+    color: #022449;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    min-height: 70px;
+    text-transform: uppercase;
+}
+
+.topo {
+    background-image: url(../img/topo-03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 1720px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.fixed {
+    text-align: right;
+    position: fixed;
+    right: 150px;
+    max-width: 25%;
+}
+
+.fixed .icon-whats {
+    width: 70px;
+    margin: 10px 0;
+}
+
+.box-border {
+    border-right: 2px solid #808080;
+}
+
+.menu-nav {
+    background: rgba(2, 36, 73, .9);
+    border-radius: 15px 0 0 15px;
+    padding: 25px;
+    margin: 15px 0;
+}
+
+ul.menu-list {
+    list-style: none;
+}
+
+ul.menu-list li {
+    border-bottom: 1px solid #FFF;
+    margin: 20px 0;
+}
+
+ul.menu-list li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all .2s ease-in;
+}
+
+ul.menu-list li a:hover,
+ul.menu-list li a:active {
+    color: #FFF;
+}
+
+.texto-sobre {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-right: 10px;
+}
+
+.clientes {
+    background-image: url(../img/bg-clientes.png);
+}
+
+.produtos {
+    background-image: url(../img/bg-produtos.png);
+}
+
+.produtos-item {
+    border-right: 1px solid #022449;
+    padding-right: 10px;
+    text-align: right;
+    margin-right: 75px;
+}
+
+.texto-produtos {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.clientes .clientes-item {
+    margin: 10px 0;
+}
+
+.localizacao {
+    background-image: url(../img/bg-localizacao.png);
+}
+
+.localizacao .localizacao-item {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .4);
+}
+
+.localizacao .endereco {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px 25px;
+    margin-top: 50px;
+}
+
+.localizacao .endereco span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer .contato-logo {
+    text-align: center;
+}
+
+footer .contato-item h3,
+footer .contato-item h4 {
+    color: #022449;
+}
+
+footer .contato-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer .contato-item h4 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+footer .contato-item ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #022449;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer span {
+    font-family: 'Courier New', Courier, monospace;
+    color: #808080;
+    font-weight: 500;
+}
+
+.footer span a {
+    color: #FFF;
+}
+
+.footer span a:hover {
+    color: #808080;
+}
+
+@media screen and (min-width: 1200px) {
+    .container-custom {
+        padding: 0 150px;
+    }
+    .menu-nav {
+        margin: 15px 0px 15px 100px;
+    }
+}
